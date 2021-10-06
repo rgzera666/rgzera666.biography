@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  {
+    width: 100%;
+  }
+}
+body {
+	font-family: "Open Sans", sans-serif;
+	background-color: black;
+	position: relative;
+	background: transparent;
+	color: #999999;
+	text-align: center;
+  }
+
+img {
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+	border-radius: 50%;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  	filter: grayscale(100%);
+	
+ } 
+
+.h1 {
+	text-align: center;
+	font-size: 4vw;
+	font-family: 'Merriweather', sans-serif;
+	color:#999999;
+	letter-spacing: 1px;
+}
+
+.h2 {
+	text-align: center;
+	font-size: 1,5vw;
+	font-family: 'Ubuntu';
+	color:#ffff;
+	margin: 20px 185px 0px 185px;
+}
+
+p {
+	text-align: justify;
+	margin: 20px 185px 0px 185px;
+	font-size-adjust: initial;
+	font-size: 1.3vw;
+    
+}
+
+.fa {
+	height: 3vw;
+    min-height: 2vw;
+    width: 6vw;
+    min-width: 2vw;
+    margin: 90px auto auto;
+	font-size: 3vw;
+	text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+	opacity: 0.5;
+	color: #4634ad;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-gitlab {
+	background: #000000;
+	color: orange;
+  }
+  
+  /* Twitter */
+  .fa-github {
+	background: #000000;
+	color: white;
+  }
+
+  .fa.facebook {
+	  background: black;
+	  color: blue;
+  }
+  
